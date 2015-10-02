@@ -1,0 +1,222 @@
+/*   MELLAN LÄGET (Mindre Laptop) 3 kolumner   */
+@media all and (max-width: 1280px) and (min-width:950px){
+	header {
+		width:800px;
+	}
+	.wrapper {
+		width: 825px;
+	}
+	.log-head {
+		width: 378px;
+	}
+	.button {
+		width: 80px;
+	}
+	.button-head {
+		width: 420px;
+	}
+	.button:hover .button-hover {
+		margin-top:70px;
+	}
+	.image-box {
+		width:800px;
+        height:400px;
+	}
+	.product4, .soc4 {
+		display: none;
+	}
+	.product3, .soc3 {
+		margin:0px;
+	}
+	.product {
+		margin-right:20px;
+		margin-top:20px;
+	}
+	footer {
+		width:795px;
+	}
+	.popup {
+		margin-left:100px;
+		width: 800px;
+	}
+	.select-styled select {
+		left:472px;
+	}
+	.price {
+		right:300px;
+	}
+	.popCheck {
+		margin-left:100px;
+		width: 800px;
+	}
+	.betala {
+		width:800px;
+	}
+	.content {
+		width:825px;
+	}
+}
+
+/*  MEDIUM LÄGET (PADDA) 2 kolumner  */
+@media all and (max-width: 950px) and (min-width: 670px) {
+	header {
+		height:70px;
+		width:560px;
+	}
+	.wrapper {
+		width: 550px;
+	}
+	.log-head, .button-head, .button {
+		height: 70px;
+	}
+	.button-head {
+		width: 396px;
+	}
+	.log-head {
+		width: 164px;
+	}
+	#logo {
+		height:80px;
+		width: 70px;
+	}
+	.button {
+		width: 70px;
+		background-size:50px;
+	}
+	.button:hover .button-hover {
+		margin-top: 50px;
+	}
+	.image-box {
+		width:530px;
+		height:275px;
+	}
+	.product4, .soc4, .product3, .soc3 {
+		display: none;
+	}
+	.product2, .soc2 {
+		margin:0px;
+	}
+	.product {
+		margin-right:20px;
+		margin-top:20px;
+	}
+	.prod9 {
+		margin-bottom:20px;
+	}
+	footer {
+		width:530px;
+	}
+	.popup {
+		margin-left:100px;
+		width: 530px;
+	}
+	.select-styled select {
+		left:291px;
+	}
+	.price {
+		right:100px;
+	}
+	.productsText {
+		left:155px;
+	}
+	.deleteButton {
+		right:3px;
+	}
+	.popCheck {
+		margin-left:100px;
+		width: 530px;
+	}
+	.betala {
+		width:530px;
+	}
+	.content {
+		width:560px;
+	}
+}
+
+/* MINI LÄGET (MOBIL) 1 KOLUMN */
+@media all and (max-width: 670px) {
+	body {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.wrapper {
+		width: 300px;
+	}
+	header{
+		position: relative;
+		height: 50px;
+		width: 250px;
+	}
+	.log-head{
+		height: 50px;
+		width: 200px;
+	}
+	#logo {
+		height: 60px;
+		width: 50px;
+	}
+	.button-head, .button {
+		display: none;
+	}
+	.mobile-menu {
+		display: block;
+	}
+	.image-box {
+		width:250px;
+		height:150px;
+	}
+	.product4, .soc4, .product3, .soc3, .product2, .soc2 {
+		display: none;
+	}
+	.product1, .soc1 {
+		margin:0px;
+	}
+	.prod-info {
+		top: 370px;
+		left: 25px;
+	}
+	#add {
+		margin-right: 0px;
+		right: 0px;
+	}
+	.prod9 {
+		margin-bottom:20px;
+	}
+	footer {
+		margin-top: 10%;
+		width: 250px;
+	}
+	.product {
+		margin-top:20px;
+	}
+	.popup {
+		margin-left:50px;
+		width:250px;
+	}
+	.popCheck {
+		margin-left:50px;
+		width: 250px;
+	}
+	.betala {
+		width:250px;
+	}
+	.content {
+		width:250px;
+		height:520px;
+	}
+	.pic img {
+		width: 250px;
+		height: 250px;
+	}
+	.prod-info {
+		left: 0px;
+		top: 320px;
+	}
+	#add {
+		margin-top: 23px;
+	}
+	.outer {
+		width: 250px;
+	}
+}

@@ -1,0 +1,95 @@
+
+.popupCheckout {
+	display:none;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background:rgba(0, 0, 0, 0.5)
+}
+.popCheck {
+	position:absolute;
+	bottom: 120px;
+	width: 1080px;
+	margin-left: 180px;
+	top: 45px;
+	background-color:#fff;
+	overflow:auto;
+}
+.popupCheckout.active {
+	display:block;
+	z-index:2;
+}
+.check-head {
+	left:100px;
+	right:255px;
+	height:40px;
+	background-color:#000;
+	color:#fff;
+	padding-left:20px;
+	padding-top:5px;
+	font-size:18px;
+}
+.check-close {
+    background-image: url(../material/close-button.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:40px;
+    width:40px;
+    float:right;
+    margin-top:-5px;
+}
+.check-close:hover {
+    height:40px;
+    width:40px;
+    float:right;
+    margin-top:-5px;
+    background-color:#303030;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.check-text {
+	font-size:14px;
+	margin-top:30px;
+	margin-left:50px;
+	color:#000;
+}
+object {
+	display:none;
+	position:absolute;
+	margin-top:-175px;
+	margin-left:-50px;
+	width:1236px;
+	height:580px;
+	overflow:auto;
+}
+.betala {
+	height: 650px;
+	overflow: auto;
+	position: absolute;
+	top: 40px;
+	width: 1080px;
+}
+.klarna {
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 125px;
+    margin-left: 50px;
+}
+object.active {
+	display:block;
+}
+iframe {
+    display:none;
+    width:500px;
+    height:500px;
+}
+iframe.active {
+    display:block;
+}

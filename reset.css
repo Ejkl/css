@@ -1,0 +1,24 @@
+* {
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+    -webkit-transform:translatez(0);
+    -moz-transform:translatez(0);
+    -ms-transform:translatez(0);
+    -o-transform:translatez(0);
+    transform:translatez(0);
+}
+@font-face {
+	font-family:myFirstFont;
+	src:url("../fonts/opensans-300n.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	margin:0 auto;
+	max-width:1280px;
+	padding-left:100px;
+	padding-right:100px;
+	font-family: myFirstFont;
+	font-size:20px;
+}

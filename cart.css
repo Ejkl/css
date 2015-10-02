@@ -1,0 +1,110 @@
+.popup-background {
+	display:none;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background:rgba(0, 0, 0, 0.5)
+
+}
+.popup {
+	position:absolute;
+	bottom: 120px;
+	width: 1080px;
+	margin-left: 180px;
+	top: 45px;
+	background-color:#fff;
+	overflow:auto;
+}
+.popup-background.active {
+	display:block;
+	z-index: 2;
+}
+.popupHeader {
+	background:#000;
+	left:100px;
+	right:255px;
+	height:40px;
+	color:#fff;
+	padding-left:20px;
+	padding-top:5px;
+	font-family:myFirstFont;
+}
+.closeButton {
+	background-image: url(../material/close-button.svg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:40px;
+	width:40px;
+	float:right;
+	margin-top:-5px;
+}
+.closeButton:hover {
+    height:40px;
+    width:40px;
+    float:right;
+    margin-top:-5px;
+    background-color:#303030;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.checkProducts {
+	background-image: url(../material/prod/p1.png);
+	height:134px;
+	width:134px;
+	color:#000;
+	float:left;
+	text-align: center;
+	background-size:cover;
+	margin-top:10px;
+	margin-left:10px;
+}
+.popupWrapper {
+	width:100%;
+	height:150px;
+	position:relative;
+	padding-top:;
+	margin-top:;
+}
+.productsText {
+	color:#000;	
+	top:65px;
+	height:20px;
+	left:200px;
+	position:absolute;
+}
+.price {
+	color:#000;	
+	top:65px;
+	right:400px;
+	height:20px;
+	position:absolute;
+}
+.deleteButton {
+	background-image:url(../material/remove.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size:30px;
+	height:45px;
+	width:45px;
+	top:57px;
+	right:30px;
+	position:absolute;
+	background-color:#000;
+	display:inline-block;
+	z-index:3;
+}
+.select-styled select {
+	background: transparent;
+	width: 45px;
+	font-size: 16px;
+	line-height: 1;
+	border: 1 solid #000;
+	border-radius: 0;
+	height: 25px;
+	-webkit-appearance: none;
+	position:relative;
+	left:680px;
+	top:65px;
+}

@@ -1,0 +1,39 @@
+.content {
+	position: relative;
+	width: 1080px;
+	padding-top: 20px;
+	padding-right: 20px;
+	margin-bottom: 100px;
+	color: #4f4f4f;
+}
+.pic {
+	padding-top: 20px;
+}
+.prod-info {
+	position: absolute;
+	top: 50px;
+	left: 320px;
+	padding-right: 60px;
+	padding-top: 20px;
+	font-size: 12px;
+}
+
+#add {
+	background: #a93;
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	margin-right: 40px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid #a93;
+}
+h2 {
+	font-family: myFirstFont;
+	font-size: 20px;
+}
+
+
+
+
+
